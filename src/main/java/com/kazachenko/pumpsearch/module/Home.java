@@ -1,4 +1,4 @@
-package Modules;
+package com.kazachenko.pumpsearch.module;
 import javax.swing.*; import java.io.Serializable;
 
 public class Home implements Serializable {

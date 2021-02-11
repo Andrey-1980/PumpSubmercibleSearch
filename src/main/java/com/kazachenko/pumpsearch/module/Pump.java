@@ -1,4 +1,4 @@
-package Modules;
+package com.kazachenko.pumpsearch.module;
 import javax.swing.*; import java.io.Serializable;
 
 public class Pump implements Serializable {
@@ -10,7 +10,7 @@ public class Pump implements Serializable {
     public String getModel() { return model; }
     public String getObjName() { return objName; }
 
-    public static Pump selectGrundfosPump(Skvajina skv, Home home) {
+    public static Pump selectGrundfosPump(Hole skv, Home home) {
         double qr, hr;
         int qp, hp;
 
